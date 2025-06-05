@@ -19,7 +19,7 @@ public class Rectangle extends Shape {
         return  width*height;
     }
 
-    public void diplayShapeDetails(){
+    public void displayShapeDetails(){
         super.displayShapeDetails();
         System.out.println("Height:"+height);
         System.out.println("Width:"+width);

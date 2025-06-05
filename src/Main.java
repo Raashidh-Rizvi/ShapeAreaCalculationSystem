@@ -6,7 +6,7 @@ public class Main {
 
 
 
-        rectangle.diplayShapeDetails();
+        rectangle.displayShapeDetails();
         System.out.println("Factorized Area: " + rectangle.calculateArea(2));
         System.out.println();
         triangle.displayShapeDetails();
