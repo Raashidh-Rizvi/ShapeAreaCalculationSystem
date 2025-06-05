@@ -1,4 +1,4 @@
-public class Shape {
+public abstract class Shape {
     private String shapeName;
 
     public Shape(){
@@ -12,12 +12,11 @@ public class Shape {
         System.out.println("Shape Name: " + shapeName);
 
     }
-    public double calculateArea(){
-        return 0;
-    }
+    public abstract double calculateArea();
+
     public double calculateArea(double factor){
         return calculateArea() * factor;
-    };
+    }
 
 
 }
